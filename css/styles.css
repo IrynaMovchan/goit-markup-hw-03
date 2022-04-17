@@ -263,7 +263,13 @@ footer .logo {
   owerflow: hidden;
 }
 
-.filters {
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.filters-item {
+  margin-bottom: 50px;
 }
 
 .filters-btn {
@@ -288,12 +294,20 @@ footer .logo {
   background: var(--accent-color);
 }
 
+.projects {
+}
+
+.project-img {
+  margin-bottom: 20px;
+}
+
 .project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
+  margin-bottom: 4px;
 }
 
 .project-name:hover,
