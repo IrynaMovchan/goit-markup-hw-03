@@ -24,20 +24,24 @@
     <header class="header">
       <div class="container">
         <!--Навигация-->
+        <a lang="en" href="./index.html" class="logo link"><span>Web</span>Studio</a>
         <nav class="header-navigation">
-          <a lang="en" href="./index.html" class="logo link"><span>Web</span>Studio</a>
           <ul class="header-list">
-            <li class="list"><a href="./index.html" class="header-item link current">Студия</a></li>
-            <li class="list"><a href="./portfolio.html" class="header-item link">Портфолио</a></li>
-            <li class="list"><a href="" class="header-item link">Контакты</a></li>
+            <li class="header-item list">
+              <a href="./index.html" class="header-link link current">Студия</a>
+            </li>
+            <li class="header-item list">
+              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            </li>
+            <li class="header-item list"><a href="" class="header-link link">Контакты</a></li>
           </ul>
         </nav>
         <!--Почта и телефон-->
-        <ul>
-          <li class="list">
+        <ul class="header-contacts">
+          <li class="header-item list">
             <a href="mailto:info@devstudio.com" class="header-email link">info@devstudio.com</a>
           </li>
-          <li class="list">
+          <li class="header-item list">
             <a href="tel:+380961111111" class="header-phone link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -45,36 +49,36 @@
     </header>
     <main>
       <!--Герой-->
-      <section class="hero">
-        <div class="container">
+      <section>
+        <div class="hero container">
           <h1 class="hero-moto">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-btn">Заказать услугу</button>
         </div>
       </section>
       <!--Особенности-->
-      <section class="features">
-        <div class="container">
+      <section>
+        <div class="features container">
           <h2 class="visually-hidden">Особенности</h2>
-          <ul>
-            <li class="list">
+          <ul class="features-list">
+            <li class="features-item list">
               <h3 class="features-name">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="list">
+            <li class="features-item list">
               <h3 class="features-name">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="list">
+            <li class="features-item list">
               <h3 class="features-name">Планирование</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="list">
+            <li class="features-item list">
               <h3 class="features-name">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -84,17 +88,17 @@
         </div>
       </section>
       <!--Чем мы занимаемся-->
-      <section class="what-we-are-doing">
+      <section class="actions">
         <div class="container">
-          <h2 class="works-name">Чем мы занимаемся</h2>
-          <ul>
-            <li class="list">
+          <h2 class="actions-name">Чем мы занимаемся</h2>
+          <ul class="actions-list">
+            <li class="actions-item list">
               <img src="./images/action-1.jpg" alt="Человек печатает на клавиатуре" width="370" />
             </li>
-            <li class="list">
+            <li class="actions-item list">
               <img src="./images/action-2.jpg" alt="Человек держит телефон в руках" width="370" />
             </li>
-            <li class="list">
+            <li class="actions-item list">
               <img
                 src="./images/action-3.jpg"
                 alt="Человек смотрит на палитру цветов на планшете"
@@ -108,7 +112,7 @@
       <section class="team">
         <div class="container">
           <h2 class="team-name">Наша команда</h2>
-          <ul>
+          <ul class="team-cards">
             <li class="worker-card list">
               <img class="photo" src="./images/team-1.jpg" alt="Игорь Демьяненко" width="270" />
               <h3 class="worker-name">Игорь Демьяненко</h3>
