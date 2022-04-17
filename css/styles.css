@@ -17,12 +17,43 @@ body {
   color: var(--main-text-color);
 }
 
-/* Убирает декорацию */
+/* Сбрасывает стили */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -37,6 +68,11 @@ body {
 
 .logo > span {
   color: var(--accent-color);
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-item {
@@ -77,6 +113,19 @@ footer .logo {
   color: var(--contacts-color);
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address-item {
+  margin-bottom: 9px;
+}
+
 .footer-address,
 .footer-email-phone {
   font-style: normal;
@@ -94,8 +143,12 @@ footer .logo {
 
 /* Index */
 
+/* ------HERO------ */
+
 .hero {
   background: var(--background-hero-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-moto {
@@ -106,6 +159,8 @@ footer .logo {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--contacts-color);
+  max-width: 696px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -119,17 +174,37 @@ footer .logo {
   cursor: pointer;
 }
 
+/* ------FEATURES------ */
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features-name {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: inherit;
+  margin-bottom: 10px;
 }
 
 .features-text {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
+
+/* ------WHAT WE ARE DOING------ */
+
+.what-we-are-doing {
+  padding-bottom: 90px;
+}
+
+.works-name {
+  margin-bottom: 45px;
+}
+
+/* ------OUR TEAM------ */
 
 .works-name,
 .team-name {
@@ -142,14 +217,28 @@ footer .logo {
 
 .team {
   background-color: var(--background-filters-btn-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
+.team-name {
+  margin-bottom: 50px;
+}
+
+.worker-card {
+  padding-bottom: 30px;
+}
+
+.photo {
+  margin-bottom: 30px;
+}
 .worker-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: inherit;
+  margin-bottom: 10px;
 }
 
 .position {
